@@ -10,7 +10,8 @@ find_package(Qt5Widgets)
 find_package(Qt5Network)
 find_package(Qt5Gui)
 qt5_add_resources(RESOURCES)
-add_definitions(${QT_DEFINITIONS})
+
+#add_definitions(${QT_DEFINITIONS})
 
 #to find opencv
 find_package(OpenCV REQUIRED)
@@ -34,9 +35,9 @@ catkin_package()
 include_directories(
   ${catkin_INCLUDE_DIRS}
 )
-include_directories(include ${catkin_INCLUDE_DIRS} ${qt_hdrs}  ${QT_LIBRARIES})
-add_library(include_send ${qt_hdrs})
+include_directories(include ${catkin_INCLUDE_DIRS}   )
+add_library(include_send )
 add_executable(send_image src/main.cpp include/sendimage.h  include/spin.h src/sendimage.cpp src/spin.cpp)
-target_link_libraries(send_image ${catkin_LIBRARIES}  ${QT_LIBRARIES} ${OpenCV_LIBS} ${X11_LIBRARIES} -lpthread)
+target_link_libraries(send_image ${catkin_LIBRARIES} ${OpenCV_LIBS} ${X11_LIBRARIES} -lpthread)
 #to find qt modules
 qt5_use_modules(${PROJECT_NAME} Core Network Gui Widgets)

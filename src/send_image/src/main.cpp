@@ -26,7 +26,6 @@ int main(int argc, char** argv)
     // Subscribe to input video feed for grab rgb and publish output video feed
     image_sub = it.subscribe("/camera/image_raw", 1,
                              &SendImage::raw_image, &send);
-    prog_end=nh_.subscribe("image_end",1,&SendImage::prog_end,&send);
     Spin spinner;
     spinner.start();
 
