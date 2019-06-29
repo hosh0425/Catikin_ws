@@ -1,0 +1,4 @@
+This node subscribes to a /camera/image_raw topic in local pc and will send it over network
+
+Downloading video_stream node from https://github.com/ros-drivers/video_stream_opencv, helps to receive
+image from local camera, and publish it local as input topic for this "send_image" node
