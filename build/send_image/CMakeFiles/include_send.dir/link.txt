@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -shared -Wl,-soname,libinclude_send.so -o /home/hossein/catkin_ws/devel/lib/libinclude_send.so CMakeFiles/include_send.dir/include_send_autogen/mocs_compilation.cpp.o 

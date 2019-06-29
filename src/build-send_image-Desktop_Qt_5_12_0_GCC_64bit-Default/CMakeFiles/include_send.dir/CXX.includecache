@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hossein/catkin_ws/src/build-send_image-Desktop_Qt_5_12_0_GCC_64bit-Default/include_send_autogen/mocs_compilation.cpp
+
