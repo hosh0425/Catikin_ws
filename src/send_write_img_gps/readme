@@ -1,0 +1,6 @@
+This node subscribes to a /camera/image_raw topic & mavros/gps/fix topics in local pc, and will send it over network and also write images tagged by lat&lng in local pc 
+
+Downloading video_stream node from https://github.com/ros-drivers/video_stream_opencv, helps to receive
+image from local camera, and publish it local as input topic for this "send_image" node  (roslaunch camera.launch)
+
+to configure Qt Creator by ROS in projects-> Cmake  set CMAKE_PREFIX_PATH to /opt/ros/melodic 

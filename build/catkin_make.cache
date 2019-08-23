@@ -1,2 +1,2 @@
-send_image:video_stream_opencv
+receive_image:send_image:send_write_img_gps:video_stream_opencv
 -DCATKIN_DEVEL_PREFIX=/home/hossein/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/hossein/catkin_ws/install -G Unix Makefiles

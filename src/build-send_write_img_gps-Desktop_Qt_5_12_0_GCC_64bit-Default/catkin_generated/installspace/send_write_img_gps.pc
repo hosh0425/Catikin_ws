@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: send_write_img_gps
+Description: Description of send_write_img_gps
+Version: 0.0.0
+Cflags: 
+Libs: -L/usr/local/lib 
+Requires: 

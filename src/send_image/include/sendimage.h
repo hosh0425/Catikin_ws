@@ -16,8 +16,8 @@
 
 using namespace cv;
 
-#define PORT_NUMBER 7897
-#define IP_ADDRESS "192.168.1.115"
+#define PORT_NUMBER 8080
+#define IP_ADDRESS "127.0.0.1"
 #define FRAME_WIDTH 160
 #define FRAME_HEIGHT 120
 #define COMPRESSION_RATE 50

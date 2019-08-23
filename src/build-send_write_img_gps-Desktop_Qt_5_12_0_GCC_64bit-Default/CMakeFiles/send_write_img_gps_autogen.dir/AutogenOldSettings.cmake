@@ -1,0 +1,3 @@
+set(AM_MOC_SETTINGS_HASH "2b6a5af5dd6e4d0ec7a2a91a551a4cd6eeffc1d5daddebf523d9c902fe85bae1")
+set(AM_UIC_SETTINGS_HASH "")
+set(AM_RCC_SETTINGS_HASH "")

@@ -41,6 +41,7 @@ void SendImage::send_image()
     send_img_socket->flush();
     img_data.clear();
     enc_buff.clear();
+    ROS_INFO("sent");
 
 }
 
